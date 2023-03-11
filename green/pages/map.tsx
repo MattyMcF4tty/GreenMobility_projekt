@@ -1,15 +1,10 @@
 import React from 'react'
-  
-export function dashboardMenu(){
-  <div>
-    <h1>hello world</h1>
-  </div>
-}
+import Navbar from "../components/navbar"
 
 export default function map() {
   return (
     <div>
-      <dashboardMenu />
+      <Navbar />
       <div className='flex flex-col bg-main-green-200 shadow-lg h-[100vh] w-[10vw] text-white justify-between'>
         <div className='flex flex-row items-center'>
           <img src="GreenLogo.jpg" alt="GreenLogo" className='w-[40%] align-top'/>
