@@ -8,7 +8,9 @@ export default function map() {
   return (
     <div className='flex flex-row'> 
       <Navbar />
-      <CarMap />
+      <div className='w-full h-screen'>
+        <CarMap />
+      </div>
     </div>
   )
 }

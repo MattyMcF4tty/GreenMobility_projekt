@@ -21,10 +21,15 @@ function Map() {
     googleMapsApiKey: "AIzaSyDthzOmhNb5hdyDm7LtsrRozKGFZ7vqgic",
   });
 
-  if (!isLoaded) return <div className="w-full h-full flex justify-center flex-col">Loading...</div>;
+  if (!isLoaded) return (
+    <div className="w-full h-full flex justify-center items-center flex-col">
+      <img src="GreenLogo.png" alt="Green Logo" className="w-[10%]"/>
+      <p>Loading Google maps data...</p>
+    </div>
+  )
 
   return (
-    <GoogleMap zoom={10} center={center} mapContainerStyle={{ height: "100vh", width: "100%" }}>
+    <GoogleMap zoom={10} center={center} mapContainerStyle={{ height: "100%", width: "100%" }} options={{ streetViewControl: false, zoomControl: false }} >
       <Marker position={center} />
     </GoogleMap>
   );
