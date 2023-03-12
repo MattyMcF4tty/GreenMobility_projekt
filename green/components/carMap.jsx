@@ -21,7 +21,7 @@ function Map() {
     googleMapsApiKey: "AIzaSyDthzOmhNb5hdyDm7LtsrRozKGFZ7vqgic",
   });
 
-  if (!isLoaded) return <div>Loading...</div>;
+  if (!isLoaded) return <div className="w-full h-full flex justify-center flex-col">Loading...</div>;
 
   return (
     <GoogleMap zoom={10} center={center} mapContainerStyle={{ height: "100vh", width: "100%" }}>
