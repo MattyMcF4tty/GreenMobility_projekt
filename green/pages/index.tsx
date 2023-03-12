@@ -1,22 +1,20 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
+import Login from "../components/login"
+
 
 const Home: NextPage = () => {
   return (
-    <div className='flex flex-col border-2 border-green-500'>
-      <div className=' flex flex-col items-center bg-gray-200 h-[30vh] w-full bg-cover bg-center'>
-        <img src="GreenMobility_Logo_Green_Grey.webp" alt="Green" className='w-[30%]' />
-        <h1 className='text-2xl'>
-          Velkommen til GreenMobility
-        </h1>
-        <button className='mt-[30vh]'>
-          Login
-        </button>
-        
+      <div className='flex justify-center items-center w-screen h-screen bg-gray-300 overflow-hidden'>
+          <img src="Polestar_2.jpg" alt="Background" className='z-10 absolute w-[100%] h-[100%]' />
+          <div className='flex items-center w-[100%] h-[100%] flex-col z-20 bg-black bg-opacity-30'>
+            <img src="GreenMobility_Logo_Green_Grey.webp" className='w-[30%] mt-[7%]'/>
+            
+            <Login/> 
+
+          </div>
+
       </div>
 
-    </div>
   )
 }
 
