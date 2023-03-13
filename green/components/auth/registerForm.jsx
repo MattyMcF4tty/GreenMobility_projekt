@@ -10,12 +10,14 @@ const RegisterForm = () => {
         </div>
         <div>
             <label htmlFor="text-gray-700">Email:</label>
-            <input className="w-full py-1 bg-gray-50 px--1 outline-none mb-4 focus:bg-gray-200 hover:bg-gray-200 rounded pl-1" type="Email" />
+            <input className="w-full py-1 bg-gray-100 px--1 outline-none mb-4 focus:bg-gray-200 hover:bg-gray-200 rounded pl-1" type="Email" />
             <label htmlFor="text-gray-700">Password:</label>
-            <input className='w-full py-1 bg-gray-50  px--1 outline-none mb-4  focus:bg-gray-200 hover:bg-gray-200 rounded-md pl-1' type="Password" />
+            <input className='w-full py-1 bg-gray-100  px--1 outline-none mb-4  focus:bg-gray-200 hover:bg-gray-200 rounded-md pl-1' type="Password" />
             <label htmlFor="text-gray-700">Verify password:</label>
-            <input className='w-full py-1 bg-gray-50  px--1 outline-none mb-4  focus:bg-gray-200 hover:bg-gray-200 rounded-md pl-1' type="Password" />
-            <button className='bg-main-green-100 w-full py-1 rounded' type='submit'>Sign Up</button>
+            <input className='w-full py-1 bg-gray-100  px--1 outline-none mb-4  focus:bg-gray-200 hover:bg-gray-200 rounded-md pl-1' type="Password" />
+            <a href="/login" className="hover:text-main-green-100 hover:underline">Already have an account?</a>
+            
+            <button className='bg-main-green-100 w-full py-1 rounded text-white mt-4' type='submit'>Sign Up</button>
         </div>
     </div>
   </form>)
