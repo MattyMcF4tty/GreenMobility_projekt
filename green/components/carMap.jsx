@@ -29,7 +29,7 @@ function Map() {
   )
 
   return (
-    <GoogleMap zoom={10} center={center} mapContainerStyle={{ height: "100%", width: "100%" }} options={{ streetViewControl: false, zoomControl: false }} >
+    <GoogleMap zoom={10} center={center} mapContainerStyle={{ height: "100%", width: "100%" }} options={{ streetViewControl: false, zoomControl: true }} >
       <Marker position={center} />
     </GoogleMap>
   );

@@ -4,7 +4,7 @@ const Navbar = () => {
     return(
         <nav className='flex flex-col bg-main-green-200 shadow-lg h-[100vh] w-[10vw] text-white justify-between z-20'>
         <div className='flex flex-row items-center'>
-          <img src="GreenLogo.png" alt="GreenLogo" className='w-[40%] align-top'/>
+          <img src="GreenLogo.png" alt="GreenLogo" className='w-[60%] align-top'/>
         </div>
 
         <div className='flex flex-col '>
