@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
 
-function Map() {
+function CarMap() {
   const [center, setCenter] = useState({ lat: 44, lng: -80 });
 
   useEffect(() => {
@@ -35,4 +35,4 @@ function Map() {
   );
 }
 
-export default Map;
+export default CarMap;
