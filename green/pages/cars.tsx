@@ -5,15 +5,15 @@ import CarMap from "../components/carMap";
 
 
 
-const Map: NextPage = () => {
+const Cars: NextPage = () => {
   return (
     <div className='flex flex-row'> 
-      <Navbar />
-      <div className='w-full h-screen'>
-        <CarMap />
-      </div>
+        <Navbar />
+        <div className='w-full h-screen'>
+            <CarMap />
+        </div>
     </div>
   )
 }
 
-export default Map;
+export default Cars;
