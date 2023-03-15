@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import LoginForm from "../components/auth/loginForm"
 
 
-const Home: NextPage = () => {
+const Login: NextPage = () => {
   return (
       <div className='flex justify-center items-center w-screen h-screen bg-gray-300 overflow-hidden'>
           <img src="Polestar_2.jpg" alt="Background" className='z-10 absolute w-[100%] h-[100%]' />
@@ -18,4 +18,4 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+export default Login;
